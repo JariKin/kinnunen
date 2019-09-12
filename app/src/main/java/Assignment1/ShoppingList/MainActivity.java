@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText item;
     TextView textView;
+    EditText editText;
     Button save;
     Button done;
 
@@ -38,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
             });
+
+        public void sendText(View view) {
+            Intent intent = new Intent((this, ShowListActivity.class))
+            EditText editText = (EditText) findViewById(R.id.id_editText_1);
+            String message = editText.getText().toString();
+            intent.putExtra(EXTRA_MESSAGE, message);
+            startActivity(intent);
+        }
 
 
 
