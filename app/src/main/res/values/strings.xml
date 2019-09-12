@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="button_1_text">save</string>
+    <string name="button_2_text">done</string>
+    <string name="button_3_text">back</string>
+    <string name="WRONG">text is too short</string>
+    <string name="RIGHT">succesful</string>
+</resources>
